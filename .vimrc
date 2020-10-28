@@ -361,6 +361,8 @@ nnoremap <silent><Esc><Esc> :<C-u>set nohlsearch!<CR>
 set whichwrap=b,s,h,l,<,>,[,],~ " カーソルの左右移動で行末から次の行の行頭への移動が可能になる
 set number " 行番号を表示
 set cursorline " カーソルラインをハイライト
+set mouse=a " マウスでタブを切り替える
+set ttymouse=xterm2 " screenやtmux上でvimがマウスを使えるかどうか検証する
 nnoremap j gj
 nnoremap k gk
 nnoremap <down> gj
