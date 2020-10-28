@@ -72,3 +72,4 @@ syntax enable
 " 次に~/.config/nvim/dein.tomlで以下を追加して終了
 [[plugins]]
 repo = 'colors/molokai'
+#詳しくは別ブランチで
