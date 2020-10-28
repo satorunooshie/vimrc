@@ -25,3 +25,5 @@ $ mkdir ~/.config/nvim
 $ ln ns ~/.vimrc ~/.config/nvim/init.vim
 " これでいけなかった場合は$ cp ~/.vimrc ~/.vimrc.old ln -fns ~/.vimrc ~/.vimrc ln -fns ~/.vimrc ~/.config/nvim/init.vim rm ~/.vimrc mv ~/.vimrc.old ~/.vimrc
 $ cp ~/.vim/colors ~/.config/nvim
+# aliasの設定
+$ echo alias vim='nvim' >> .bash_profile
