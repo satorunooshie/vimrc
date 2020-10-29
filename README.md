@@ -77,4 +77,7 @@ $ vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
 call dein#add('preservim/nerdtree')
 " call dein#add('Shougo/deol.nvim', { 'rev': 'a1b5108fd' })
 call dein#add('Shougo/deol.nvim')
+# ヤンクが効かなくなる不具合を修正
+" set clipboard=unnamedplus
+set clipboard+=unnamedplus
 # 詳しくは別ブランチで
