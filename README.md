@@ -69,7 +69,12 @@ syntax enable
 "endif
  
 "End dein Scripts-------------------------
-" 次に~/.config/nvim/dein.tomlで以下を追加して終了
-[[plugins]]
-repo = 'colors/molokai'
+" 次に~/.config/nvim/dein.tomlを作成して終了
+# NERDTreeの追加
+$ git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
+$ vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
+" ~/.vimrc
+call dein#add('preservim/nerdtree')
+" call dein#add('Shougo/deol.nvim', { 'rev': 'a1b5108fd' })
+call dein#add('Shougo/deol.nvim')
 # 詳しくは別ブランチで
