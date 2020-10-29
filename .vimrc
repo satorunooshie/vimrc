@@ -477,3 +477,5 @@ endif
 "if dein#check_install()
 "  call dein#install()
 "endif
+"" NERDTreeToggleのショートカット
+"nnoremap <silent><C-e> :NERDTreeToggle<CR>
