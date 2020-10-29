@@ -80,4 +80,7 @@ call dein#add('Shougo/deol.nvim')
 # ヤンクが効かなくなる不具合を修正
 " set clipboard=unnamedplus
 set clipboard+=unnamedplus
+# supertabの導入
+mkdir -p ~/.vim/pack/plugins/start
+git clone --depth=1 https://github.com/ervandew/supertab.git ~/.vim/pack/plugins/start/supertab
 # 詳しくは別ブランチで
